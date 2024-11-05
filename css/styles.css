@@ -7670,6 +7670,7 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+  text-align: left;
 }
 
 .mb-auto {
@@ -10954,7 +10955,9 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
-  width: 100%;
+  display: flex;
+        flex-direction: column;
+        align-items: center;
 }
 
 @media (min-width: 768px) {
