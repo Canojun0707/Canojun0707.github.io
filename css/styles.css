@@ -10955,9 +10955,9 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
-  display: flex;
+        display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
 }
 
 @media (min-width: 768px) {
