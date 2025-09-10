@@ -3,20 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Canojun Tech Blog</title>
+  <title>Post - Canojun Tech Blog</title>
   <link rel="stylesheet" href="css/blog.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script defer src="js/theme.js"></script>
-  <script defer src="js/blog.js"></script>
+  <script defer src="js/post.js"></script>
 </head>
 <body>
   <header>
-    <h1>Canojun Tech Blog</h1>
+    <a href="index.html" id="home-link">← Home</a>
     <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
   </header>
-  <main id="posts"></main>
-  <footer>
-    <p>© 2024 Canojun</p>
-  </footer>
+  <article id="content"></article>
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js');
