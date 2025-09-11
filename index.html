@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Canojun Tech Blog</title>
-  <link rel="stylesheet" href="css/blog.css" />
-  <script defer src="js/theme.js"></script>
-  <script defer src="js/blog.js"></script>
+  <title>Canojun - 삼성 스타일 데모</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Canojun Tech Blog</h1>
-    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+  <header class="global-header">
+    <div class="logo">Canojun</div>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#">모바일</a></li>
+        <li><a href="#">TV &amp; 오디오</a></li>
+        <li><a href="#">가전</a></li>
+        <li><a href="#">PC</a></li>
+      </ul>
+    </nav>
   </header>
-  <main id="posts"></main>
-  <footer>
-    <p>© 2024 Canojun</p>
+  <section class="hero">
+    <h1>새로운 경험을 만나보세요</h1>
+    <p>삼성 홈페이지 스타일을 참고한 데모 사이트입니다.</p>
+    <a class="cta" href="#">자세히 보기</a>
+  </section>
+  <footer class="global-footer">
+    <p>© 2024 Canojun. 삼성 홈페이지를 참고하여 제작된 데모입니다.</p>
   </footer>
   <script>
     if ('serviceWorker' in navigator) {
