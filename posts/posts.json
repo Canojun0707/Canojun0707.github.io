@@ -2,6 +2,13 @@
   {
     "title": "Welcome to My Tech Blog",
     "date": "2024-05-24",
-    "file": "welcome.md"
+    "file": "welcome.md",
+    "excerpt": "Get started with my blog."
+  },
+  {
+    "title": "Second Post",
+    "date": "2024-05-25",
+    "file": "second-post.md",
+    "excerpt": "Another short update."
   }
 ]

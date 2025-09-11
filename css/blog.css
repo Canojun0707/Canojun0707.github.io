@@ -40,6 +40,10 @@ article {
   margin-bottom: 2rem;
 }
 
+article p {
+  margin-top: 0.5rem;
+}
+
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
     --bg: #1a1a1a;
