@@ -5,8 +5,10 @@ async function loadPosts() {
     const container = document.getElementById('posts');
     posts.forEach(post => {
       const article = document.createElement('article');
-      article.innerHTML = `<h2><a href="post.html?post=${encodeURIComponent(post.file)}">${post.title}</a></h2>` +
-        `<time datetime="${post.date}">${new Date(post.date).toLocaleDateString()}</time>`;
+      article.innerHTML =
+        `<h2><a href="post.html?post=${encodeURIComponent(post.file)}">${post.title}</a></h2>` +
+        `<time datetime="${post.date}">${new Date(post.date).toLocaleDateString()}</time>` +
+        (post.excerpt ? `<p>${post.excerpt}</p>` : '');
       container.appendChild(article);
     });
   } catch (err) {
