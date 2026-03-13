@@ -59,8 +59,48 @@ Recently, I have been deeply interested in AI hardware accelerators and FPGA-bas
 							<article id="work">
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<section>
+								        <h3>1. Pattern Generator</h3>
+								        <p>
+								            <strong>Key Features:</strong> Developed a high-speed signal generation system for display module testing. Implemented precise timing control and various output patterns to verify display integrity. Focused on stable data transmission and real-time parameter adjustment.<br />
+								            <strong>Tech Stack:</strong> STM32, C (HAL Library), SPI/Parallel Communication, Oscilloscope for signal validation.
+								        </p>
+								    </section>
+								
+								    <hr />
+								
+								    <section>
+								        <h3>2. BIST JIG Board</h3>
+								        <p>
+								            <strong>Key Features:</strong> Designed a Built-In Self-Test (BIST) JIG for automated hardware verification. Integrated power monitoring logic (PAC195x) to measure real-time voltage and current. Implemented diagnostic firmware to detect hardware failures automatically.<br />
+								            <strong>Tech Stack:</strong> STM32, I2C (DMA-based), Power Monitoring ICs, Multi-layer PCB Design.
+								        </p>
+								    </section>
+								
+								    <hr />
+								
+								    <section>
+								        <h3>3. Interface Board</h3>
+								        <p>
+								            <strong>Key Features:</strong> Engineered a bridge system to facilitate communication between different hardware protocols. Managed signal integrity for long-distance data transmission and handled component sourcing (BOM) to meet production deadlines.<br />
+								            <strong>Tech Stack:</strong> UART/SPI/I2C Bridging, Level Shifting, Component Sourcing & SMT Management.
+								        </p>
+								    </section>
+								
+								    <hr />
+								
+								    <section>
+								        <h3>4. LED Driver</h3>
+								        <p>
+								            <strong>Key Features:</strong> Developed a constant current LED driver circuit with PWM-based dimming control. Optimized firmware to ensure flicker-free operation and efficient power management. Conducted thermal testing and reliability verification.<br />
+								            <strong>Tech Stack:</strong> PWM Control, Analog Circuit Design, Feedback Loop Optimization, Altium/KiCad.
+								        </p>
+								    </section>
+								
+								    <p style="margin-top: 2em; font-size: 0.9em; color: #888;">
+								        <i>* Detailed schematics and source codes are restricted due to NDA.</i>
+								    </p>
+																
 							</article>
 
 						<!-- About -->
@@ -364,5 +404,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+
 
 
