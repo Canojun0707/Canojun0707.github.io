@@ -60,42 +60,51 @@ Recently, I have been deeply interested in AI hardware accelerators and FPGA-bas
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 								<section>
-								        <h3>1. Pattern Generator</h3>
-								        <p>
-								            <strong>Key Features:</strong> Developed a high-speed signal generation system for display module testing. Implemented precise timing control and various output patterns to verify display integrity. Focused on stable data transmission and real-time parameter adjustment.<br />
-								            <strong>Tech Stack:</strong> STM32, C (HAL Library), SPI/Parallel Communication, Oscilloscope for signal validation.
-								        </p>
-								    </section>
-								
-								    <hr />
-								
-								    <section>
-								        <h3>2. BIST JIG Board</h3>
-								        <p>
-								            <strong>Key Features:</strong> Designed a Built-In Self-Test (BIST) JIG for automated hardware verification. Integrated power monitoring logic (PAC195x) to measure real-time voltage and current. Implemented diagnostic firmware to detect hardware failures automatically.<br />
-								            <strong>Tech Stack:</strong> STM32, I2C (DMA-based), Power Monitoring ICs, Multi-layer PCB Design.
-								        </p>
-								    </section>
-								
-								    <hr />
-								
-								    <section>
-								        <h3>3. Interface Board</h3>
-								        <p>
-								            <strong>Key Features:</strong> Engineered a bridge system to facilitate communication between different hardware protocols. Managed signal integrity for long-distance data transmission and handled component sourcing (BOM) to meet production deadlines.<br />
-								            <strong>Tech Stack:</strong> UART/SPI/I2C Bridging, Level Shifting, Component Sourcing & SMT Management.
-								        </p>
-								    </section>
-								
-								    <hr />
-								
-								    <section>
-								        <h3>4. LED Driver</h3>
-								        <p>
-								            <strong>Key Features:</strong> Developed a constant current LED driver circuit with PWM-based dimming control. Optimized firmware to ensure flicker-free operation and efficient power management. Conducted thermal testing and reliability verification.<br />
-								            <strong>Tech Stack:</strong> PWM Control, Analog Circuit Design, Feedback Loop Optimization, Altium/KiCad.
-								        </p>
-								    </section>
+								        요청하신 내용을 바탕으로 임베디드 엔지니어의 전문성이 더 돋보이도록 영문 문장을 다듬어 정리해 드립니다. 특히 DP, MIPI, LVDS 같은 고속 인터페이스 경험은 임베디드 업계에서 굉장히 큰 강점이니 이를 강조했습니다.
+
+🛠 수정된 Work 섹션 (복사해서 사용하세요)
+HTML
+<article id="work">
+    <h2 class="major">Work</h2>
+    <span class="image main"><img src="images/work_projects.jpg" alt="Embedded Projects" /></span>
+
+    <section>
+        <h3>1. Pattern Generator</h3>
+        <p>
+            <strong>Key Features:</strong> Developed a high-speed signal generation system for display module testing. Implemented precise timing control and various output patterns to verify display integrity. Supported multiple high-speed interfaces, including <b>DP, MIPI, and LVDS</b>, for comprehensive display functionality verification.<br />
+            <strong>Tech Stack:</strong> FPGA, Cortex-M7 (STM32), OrCAD, Parallel Interface.
+        </p>
+    </section>
+
+    <hr />
+
+    <section>
+        <h3>2. BIST JIG Board</h3>
+        <p>
+            <strong>Key Features:</strong> Designed a Built-In Self-Test (BIST) JIG for automated hardware verification. Integrated power monitoring logic (PAC195x) to measure real-time voltage and current. Implemented diagnostic firmware to detect hardware failures automatically.<br />
+            <strong>Tech Stack:</strong> Cortex-M4 (STM32), Parallel Interface.
+        </p>
+    </section>
+
+    <hr />
+
+    <section>
+        <h3>3. Interface Board</h3>
+        <p>
+            <strong>Key Features:</strong> Developed specialized JIG systems for display testing across various video interfaces. Engineered solutions to support <b>LVDS (Dual/Quad), eDP, and MIPI</b> protocols, ensuring seamless interface bridging and signal stability for diverse display modules.<br />
+            <strong>Tech Stack:</strong> LVDS, MIPI, eDP, LTDC, Cortex-M4 / M7, Parallel Interface.
+        </p>
+    </section>
+
+    <hr />
+
+    <section>
+        <h3>4. LED Driver</h3>
+        <p>
+            <strong>Key Features:</strong> Developed a constant current LED driver circuit with PWM-based dimming control. Optimized firmware to ensure flicker-free operation and efficient power management. Conducted thermal testing and reliability verification.<br />
+            <strong>Tech Stack:</strong> AVR (ATmega), Cortex-M4 (STM32), Parallel Interface.
+        </p>
+    </section>
 								
 								    <p style="margin-top: 2em; font-size: 0.9em; color: #888;">
 								        <i>* Detailed schematics and source codes are restricted due to NDA.</i>
@@ -404,6 +413,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+
 
 
 
